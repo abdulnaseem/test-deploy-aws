@@ -5,6 +5,8 @@ import Navigation from './components/navbar';
 import Home from './pages';
 import About from './pages/about';
 import UniversityProjects from './pages/universityProjects';
+import Footer from './components/footer.js';
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           </Route>
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
