@@ -1,0 +1,58 @@
+.aboutme-header {
+  margin-top: -10px!important;
+  padding: 50px!important;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  background: rgba(64,64,64,1);
+
+}
+.aboutme{
+  font-size: 50px;
+}
+.short-intro{
+  font-size: 21px;
+}
+
+#more-aboutme{
+  text-align: left;
+}
+#myStack{
+  margin-top: -80px;
+}
+#mystack-info{
+  text-align: left;
+}
+#mystack_collage{
+  width:100%!important;
+  box-shadow: 10px 10px grey;
+  border: 0.5px solid black;
+}
+
+@media only screen and (max-width: 950px) {
+  body{
+    font-size: 16px!important;
+  }
+  .aboutme-header{
+    padding: 10px!important
+  }
+  .aboutme{
+    margin-top: 30px;
+    font-size: 24px!important;
+  }
+  .short-intro{
+    margin-top: 10px!important;
+    font-size: 16px;
+  }
+  .header5{
+    text-align: center;
+  }
+  .mystack{
+    text-align: center!important;
+  }
+  #mystack-info{
+    margin-top: -50px;
+  }
+
+}
