@@ -1,0 +1,93 @@
+#header{
+  background: rgba(64,64,64, 1);
+  padding-bottom: 100px!important;
+}
+.header-text{
+  color: #FFFFFF;
+  margin-top: 50px!important;
+  margin-bottom: -80px;
+}
+#grad-cert-link{
+  background: #E85D04!important;
+  border-style: none;
+  width:400px;
+  height:40px;
+}
+#grad-cert-link:hover{
+  background: #DC2F02!important;
+  border-style: none;
+  width:400px;
+  height:40px;
+}
+#projects{
+  margin-top: 20px!important;
+  text-align: left;
+}
+h3{
+  margin-top: 50px!important;
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  color: #0e387a;
+}
+#individual{
+  padding: 20px!important;
+  border-radius: 10px!important;
+}
+#finch-robot{
+  padding: 20px!important;
+  border-radius: 10px!important;
+  margin-bottom: 30px!important;
+}
+
+#button{
+  background: #E85D04!important;
+  border-style: none;
+}
+#button:hover{
+  background: #DC2F02!important;
+  border-style: none;
+}
+.p-5.border{
+  border: 10px solid #9fafca!important;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 950px) {
+  body {
+    background-color: white;
+    /* overflow-x: hidden; */
+    font-size: 16px!important;
+
+
+  }
+  .header-text{
+    color: #FFFFFF;
+    margin-top: 0px!important;
+    margin-bottom: -80px;
+  }
+  #grad-cert-link{
+    width:300px!important;
+  }
+  #projects{
+    width:100%!important;
+    margin-top:4px!important;
+    text-align: left;
+  }
+  h3{
+    font-size: 28px;
+  }
+  #individual{
+    padding-top: 20px!important;
+    border-radius: 10px!important;
+  }
+  .col.text-center.pt-4{
+    align-content: center;
+    padding-bottom: 10px;
+  }
+  .col.text-center.pt-1{
+    margin-top: -50px;
+    align-content: center;
+    padding-bottom: 10px;
+  }
+
+}
