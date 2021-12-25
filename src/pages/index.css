@@ -1,0 +1,79 @@
+body{
+  font-family: 'Gentium Book Basic', serif;
+}
+.banner-image {
+  background-image: url('/src/assets/pexels2.jpg');
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .banner-image {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .banner-image {
+    padding-top: 200px;
+  }
+}
+#header-text1{
+  text-align:left;
+  font-size: 76px;
+  margin-bottom: 50px;
+  margin-top:-130px;
+}
+#header-text2 {
+  font-size: 26px;
+  margin-top:150px;
+  text-align: left;
+}
+#button{
+  background: #E85D04!important;
+  margin-top:30px;
+  border-style: none;
+}
+#button:hover{
+  background: #DC2F02!important;
+  border-style: none;
+}
+
+.footer{
+  background: rgba(64,64,64, 1);
+  margin-top: -2rem;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.email{
+  color: white;
+  font-size: 16px;
+}
+.linkedin{
+  color: white;
+  width:50px!important;
+}
+.linkedin:hover{
+  cursor:pointer;
+  color: #E85D04;
+}
+
+@media only screen and (max-width: 950px) {
+  #header-text1{
+    margin-top:-450px!important;
+    margin-left: 20px!important;
+    margin-right: 10px!important;
+    font-size: 50px;
+
+  }
+  #header-text2{
+    margin-top: -50px!important;
+    margin-left: -80px!important;
+    margin-right: 10px!important;
+    font-size: 16px;
+  }
+  .learn-more{
+    margin-left: -80px!important;
+    font-size: 16px;
+  }
+}
