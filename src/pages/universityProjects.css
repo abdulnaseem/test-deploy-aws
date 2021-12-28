@@ -25,18 +25,21 @@
 }
 h3{
   margin-top: 50px!important;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Satisfy', cursive!important;
   font-size: 40px;
   color: #0e387a;
 }
 #individual{
   padding: 20px!important;
   border-radius: 10px!important;
+  background: #FFFFFF;
 }
 #finch-robot{
   padding: 20px!important;
   border-radius: 10px!important;
   margin-bottom: 30px!important;
+  background: #FFFFFF;
+
 }
 
 #button{

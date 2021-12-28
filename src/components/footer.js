@@ -14,8 +14,8 @@ const Footer = () => {
   };
   return (
     <div className="footer">
-      <p className="email">Email: abdulnaseem548@gmail.com</p>
       <FontAwesomeIcon className='linkedin' icon={faLinkedin} onClick={() => handleClick('https://www.linkedin.com/in/abdul-naseem-khan-14b429198/')} />
+      <p className="email">Email: abdulnaseem548@gmail.com</p>
     </div>
 
   );
