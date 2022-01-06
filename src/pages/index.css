@@ -29,12 +29,14 @@ body{
   margin-top:150px;
   text-align: left;
 }
-#button{
+#index-button{
+  font-size: 20px!important;
   background: #E85D04!important;
   margin-top:30px;
   border-style: none;
+  font-size: 16px;
 }
-#button:hover{
+#index-button:hover{
   background: #DC2F02!important;
   border-style: none;
 }

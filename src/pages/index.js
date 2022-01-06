@@ -15,7 +15,7 @@ const Home = () => {
             Achieved 2.1 with Honours <br />
             A technology enthusiast who loves to learn and adapt. <br />
         </h1>
-        <button id="button" className="btn btn-primary btn-md learn-more" type="button" onClick={handleClick}>Learn more</button>
+        <button id="index-button" className="btn btn-primary btn-md learn-more" type="button" onClick={handleClick}>Learn more</button>
       </div>
     </div>
   );

@@ -8,6 +8,7 @@
   margin-bottom: -80px;
 }
 #grad-cert-link{
+  font-size: 20px!important;
   background: #E85D04!important;
   border-style: none;
   width:400px;
@@ -33,28 +34,79 @@ h3{
   padding: 20px!important;
   border-radius: 10px!important;
   background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #finch-robot{
   padding: 20px!important;
   border-radius: 10px!important;
   margin-bottom: 30px!important;
   background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 #button{
+  width:10%;
   background: #E85D04!important;
+  font-size: 20px!important;
   border-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: width 2s;
+
 }
 #button:hover{
   background: #DC2F02!important;
   border-style: none;
+  width: 25%;
+}
+#button3{
+  width:10%;
+  background: #E85D04!important;
+  font-size: 20px!important;
+  border-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: width 2s;
+}
+#button3:hover{
+  background: #DC2F02!important;
+  border-style: none;
+  width: 25%;
+
 }
 .p-5.border{
   border: 10px solid #9fafca!important;
   border-radius: 8px;
 }
-
+#human-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+#carpark-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+#parking-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+#dice-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+#fr-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
 @media only screen and (max-width: 950px) {
   body {
     background-color: white;
@@ -91,6 +143,30 @@ h3{
     margin-top: -50px;
     align-content: center;
     padding-bottom: 10px;
+  }
+  #button{
+    width: 50%;
+    font-size: 16px!important;
+  }
+  #button3{
+    width: 50%;
+    font-size: 16px!important;
+    margin-top: 50px;
+  }
+  #human-image{
+    width: 50%;
+  }
+  #carpark-image{
+    width: 60%;
+  }
+  #parking-image{
+    width: 45%;
+  }
+  #dice-image{
+    width: 45%;
+  }
+  #fr-image{
+    width: 60%;
   }
 
 }
