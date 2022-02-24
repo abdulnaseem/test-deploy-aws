@@ -20,6 +20,15 @@ const Navigation = () => {
             <Nav>
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/university-projects">University Projects</Nav.Link>
+
+              <NavDropdown
+                id="nav-dropdown-dark-example"
+                title="My Learning"
+                menuVariant="dark">
+                  <NavDropdown.Item className="course" href="/course">Course</NavDropdown.Item>
+                  <NavDropdown.Item className="project" href="/my-projects">Projects</NavDropdown.Item>
+              </NavDropdown>
+
               <Nav.Link href="/about">About</Nav.Link>
             </Nav>
           </Navbar.Collapse>

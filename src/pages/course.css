@@ -1,0 +1,143 @@
+html, body{
+  height: 100%;
+}
+h1.courses{
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 40px 0 40px;
+}
+h1.courses span {
+  background:#ffffff;
+  padding:0 10px;
+}
+
+h4.title{
+  font-weight: bold;
+}
+div.my-projects {
+  position: relative;
+
+  width: 390px;
+  height: 250px;
+  border: 3px solid green;
+  margin: 10px;
+  border: none;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  color: black;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(8%, -0%);
+}
+
+div.my-projects:hover{
+  color: blue;
+  border: 1px solid blue;
+}
+
+/* div.last-project {
+  position: relative;
+
+  width: 390px;
+  height: 250px;
+  border: 3px solid green;
+  margin: 10px;
+  border: none;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  color: black;
+}
+
+div.last-project:hover{
+  color: blue;
+  border: 1px solid blue;
+} */
+
+
+p.descr{
+  margin-top: 10px;
+}
+
+
+button.gitlink{
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  width:25%;
+  background: #E85D04!important;
+  font-size: 20px!important;
+  border-style: none;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: width 2s;
+}
+
+div.space{
+  margin-bottom: 30px;
+}
+
+div.button-box.col-lg-12{
+  /* position: absolute;
+  bottom: 0;
+  margin-bottom:10px;
+  justify-content: center; */
+
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -20%);
+}
+
+a.btn.btn-primary{
+  margin:8px;
+  width: 30%;
+}
+
+
+@media only screen and (max-width: 650px){
+  #container{
+    margin-bottom: 1000px!important;
+  }
+
+  div.my-projects{
+    font-size: 16px!important;
+    justify-content: center;
+    font-size: 10px;
+    width: 80%;
+    margin-left:40px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(1%, -0%);
+
+  }
+  a.btn.btn-primary{
+    margin:8px;
+    width: 50%;
+    font-size: 16px!important;
+  }
+
+  div.button-box.col-lg-12.certificate{
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-52%, -20%);
+  }
+  a.btn.btn-primary.cert{
+    margin:8px;
+    width: 100%;
+    font-size: 16px!important;
+  }
+
+  div.last-project {
+    margin-bottom: 100px;
+    justify-content: center;
+    font-size: 10px;
+    width: 80%;
+    margin-left:40px;
+  }
+}

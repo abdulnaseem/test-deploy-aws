@@ -1,3 +1,6 @@
+html, body{
+  height:100%;
+}
 .logo{
   margin-left: 130px!important;
 }
@@ -7,6 +10,13 @@
 .coloring{
   margin-right: 15px!important;
 }
+
+div.footer{
+  position:fixed;
+  bottom:0;
+  height:50px;
+}
+
 @media only screen and (max-width: 950px) {
   .logo{
     margin-left: 10px!important;
@@ -16,5 +26,11 @@
   }
   .justify-content-end{
     margin-right: 0px!important;
+  }
+  .course{
+    transform: translate(40%, -0%);
+  }
+  .project{
+    transform: translate(40%, -0%);
   }
 }

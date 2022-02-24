@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Blog App",
+    "description": "React JS | Next JS | AWS AppSync | AWS Amplify | DynamoDB",
+    "status": "In progress...",
+    "gitlink": "https://github.com/abdulnaseem/blogapp-react",
+    "live": " "
+  },
+  {
+    "id": 2,
+    "title": "GraphQL with CRUD Operations",
+    "description": "React JS | GraphQL | MongoDB",
+    "status": "Completed",
+    "gitlink": "https://github.com/abdulnaseem/graphql-project",
+    "live": "https://graphql-react-course.herokuapp.com/graphql"
+  },
+  {
+    "id": 3,
+    "title": "",
+    "description": "",
+    "status": "",
+    "gitlink": "",
+    "live": ""
+  }
+]

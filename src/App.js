@@ -5,6 +5,9 @@ import Navigation from './components/navbar';
 import Home from './pages';
 import About from './pages/about';
 import UniversityProjects from './pages/universityProjects';
+import Course from './pages/course';
+import Project from './pages/my-projects';
+
 import Footer from './components/footer.js';
 
 
@@ -20,12 +23,17 @@ function App() {
           <Route exact path='/university-projects' element={<UniversityProjects />}>
             University Projects
           </Route>
+          <Route exact path='/course' element={<Course />}>
+            Course
+          </Route>
+          <Route exact path='/my-projects' element={<Project />}>
+            Project
+          </Route>
           <Route exact path='/about' element={<About />}>
             About
           </Route>
         </Routes>
       </Router>
-      <Footer />
     </div>
   );
 }
