@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './about.css';
 import MyStack from '../assets/mystack_collage.jpg';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import emailjs from "@emailjs/browser";
 
 const About = () => {
 
@@ -13,6 +14,19 @@ const About = () => {
   const handleClick = (url) => {
     const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
     if (newWindow) newWindow.opener = null
+  };
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ysdsnyo', 'template_vr2bk16', e.target, 'user_4gsh5jr8Tq2hWNa6qtQHt')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
   return (
@@ -68,19 +82,22 @@ const About = () => {
         <p className="text-white"> Find me on:
         <FontAwesomeIcon className='linkedin' icon={faLinkedin} onClick={() => handleClick('https://www.linkedin.com/in/abdul-naseem-khan-14b429198/')} />
         </p>
-        <div className="form-group">
-          <label for="name"></label>
-          <input type="name" className="form-control" id="name" placeholder="name" />
-        </div>
-        <div className="form-group">
-          <label for="email"></label>
-          <input type="email" className="form-control" id="email" placeholder="email" />
-        </div>
-        <div className="form-group">
-          <label for="text"></label>
-          <textarea className="form-control" id="text" placeholder="message"></textarea>
-        </div>
-        <button type="submit" className="btn btn-primary btn-lg mt-4 mb-5 contact-submit">Submit</button>
+
+        <form ref={form} onSubmit={sendEmail}>
+          <div className="form-group">
+            <label for="name"></label>
+            <input type="name" className="form-control" name="name" placeholder="name" />
+          </div>
+          <div className="form-group">
+            <label for="email"></label>
+            <input type="email" className="form-control" name="email" placeholder="email" />
+          </div>
+          <div className="form-group">
+            <label for="text"></label>
+            <textarea className="form-control" name="message" placeholder="message"></textarea>
+          </div>
+          <button type="submit" className="btn btn-primary btn-lg mt-4 mb-5 contact-submit">Submit</button>
+        </form>
       </div>
     </div>
   );
