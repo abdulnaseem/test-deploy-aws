@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "title": "Introduction to Cloud Computing on AWS for Beginners",
+    "description": "",
+    "cert": "",
+    "date": " ",
+    "click": "Yet to start..."
+  },
+  {
+    "id": 2,
     "title": "AWS AppSync, Amplify, React & GraphQL",
     "description": "1. Built a GraphQL project with CRUD operations - React | GraphQL | MongoDB",
     "cert": "",
@@ -8,7 +16,7 @@
     "click": "In progress..."
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Python & Django Full Stack Web Developer Bootcamp",
     "description": "HTML | CSS | Bootstrap | JavaScript | jQuery | Python | Django ",
     "cert": "https://www.udemy.com/certificate/UC-25f70cb8-d1d3-4ff9-b275-e7b6d867017c/",

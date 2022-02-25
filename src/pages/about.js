@@ -1,10 +1,22 @@
 import React from 'react';
 import './about.css';
 import MyStack from '../assets/mystack_collage.jpg';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const About = () => {
+
+  const initFontAwesome = () => {
+    library.add(faLinkedin);
+  };
+  const handleClick = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  };
+
   return (
-    <>
+    <div className="background">
 
       <div className="p-1 mt-5 aboutme-header">
         <h1 className="aboutme" align="center">About Me</h1>
@@ -50,7 +62,27 @@ const About = () => {
           </div>
         </div>
       </div>
-    </>
+
+      <div className="container p-5 mb-5 contact">
+        <h2 className="text-white mb-3 font-weight-bold contact-title">Contact</h2>
+        <p className="text-white"> Find me on:
+        <FontAwesomeIcon className='linkedin' icon={faLinkedin} onClick={() => handleClick('https://www.linkedin.com/in/abdul-naseem-khan-14b429198/')} />
+        </p>
+        <div className="form-group">
+          <label for="name"></label>
+          <input type="name" className="form-control" id="name" placeholder="name" />
+        </div>
+        <div className="form-group">
+          <label for="email"></label>
+          <input type="email" className="form-control" id="email" placeholder="email" />
+        </div>
+        <div className="form-group">
+          <label for="text"></label>
+          <textarea className="form-control" id="text" placeholder="message"></textarea>
+        </div>
+        <button type="submit" className="btn btn-primary btn-lg mt-4 mb-5 contact-submit">Submit</button>
+      </div>
+    </div>
   );
 };
 
