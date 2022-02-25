@@ -21,12 +21,13 @@ const About = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ysdsnyo', 'template_vr2bk16', e.target, 'user_4gsh5jr8Tq2hWNa6qtQHt')
+    emailjs.sendForm('service_ysdsnyo', 'template_vr2bk16', form.current, 'user_4gsh5jr8Tq2hWNa6qtQHt')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
   };
 
   return (
@@ -98,6 +99,7 @@ const About = () => {
           </div>
           <button type="submit" className="btn btn-primary btn-lg mt-4 mb-5 contact-submit">Submit</button>
         </form>
+
       </div>
     </div>
   );
