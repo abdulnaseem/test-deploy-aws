@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "title": "Clothing E-Commerce",
+    "description": "React JS | Functional Component | Hooks & Props | Firebase (Authentication & Firestore)",
+    "status": "",
+    "gitlink": "https://github.com/abdulnaseem/clothing-ecomm",
+    "live": ""
+  },
+  {
+    "id": 2,
     "title": "Search Filter Project",
     "description": "React JS | Functional Component | Hooks & Props",
     "status": "",
@@ -8,7 +16,7 @@
     "live": ""
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Blog App",
     "description": "React JS | Next JS | AWS AppSync | AWS Amplify | DynamoDB",
     "status": "In progress...",
@@ -16,7 +24,7 @@
     "live": " "
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "GraphQL with CRUD Operations",
     "description": "React JS | GraphQL | MongoDB",
     "status": "Completed",
@@ -24,7 +32,7 @@
     "live": "https://graphql-react-course.herokuapp.com/graphql"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "",
     "description": "",
     "status": "",
